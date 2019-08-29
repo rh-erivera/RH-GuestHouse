@@ -23,7 +23,7 @@ export default {
     background-image: url('/slide1.jpg');
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 732px;
     animation: fadeIn 500ms linear;
     transition: all 500ms linear;
 }
