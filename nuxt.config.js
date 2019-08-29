@@ -12,7 +12,10 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preload', href: '/slide1.jpg', as: 'image'},
+      { rel: 'preload', href: '/slide2.jpg', as: 'image'},
+      { rel: 'preload', href: '/slide3.jpg', as: 'image'}
     ]
   },
   /*
