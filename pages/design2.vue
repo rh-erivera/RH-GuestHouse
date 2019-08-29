@@ -23,23 +23,23 @@ export default {
         //     ScrollReveal().reveal('.reveal', {afterReveal: this.highlight, afterReset: this.reset})
         // })
         setTimeout(() => {
-            this.$refs.bucket2Line1.style.color = '#363636';
+            this.$refs.bucket2Line1.style.color = '#212121';
             this.$refs.bucket2Line2.style.opacity = '1';
         }, 1500)
         setTimeout(() => {
             this.$refs.bucket2Line3.style.opacity = '1';
         }, 2500)
         setTimeout(() => {
-            this.$refs.bucket2Line2.style.color = '#363636';
-            this.$refs.bucket2Line3.style.color = '#363636';
+            this.$refs.bucket2Line2.style.color = '#212121';
+            this.$refs.bucket2Line3.style.color = '#212121';
             this.$refs.bucket2Line4.style.opacity = '1';
         }, 4000)
         setTimeout(() => {
             this.$refs.bucket2Line5.style.opacity = '1';
         }, 5000)
         setTimeout(() => {
-            this.$refs.bucket2Line4.style.color = '#363636';
-            this.$refs.bucket2Line5.style.color = '#363636';
+            this.$refs.bucket2Line4.style.color = '#212121';
+            this.$refs.bucket2Line5.style.color = '#212121';
         }, 6000)
     }
 }
@@ -54,7 +54,7 @@ section {
     scroll-snap-align: center;
 }
 p {
-    /* color: #363636; */
+    /* color: #212121; */
     color: white;
     font-family: 'CaslonRH-Superfine', sans-serif;
     font-size: 54pt;
