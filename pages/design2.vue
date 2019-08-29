@@ -25,69 +25,22 @@ export default {
         setTimeout(() => {
             this.$refs.bucket2Line1.style.color = '#363636';
             this.$refs.bucket2Line2.style.opacity = '1';
-        }, 2000)
+        }, 1500)
         setTimeout(() => {
             this.$refs.bucket2Line3.style.opacity = '1';
-        }, 4000)
+        }, 2500)
         setTimeout(() => {
             this.$refs.bucket2Line2.style.color = '#363636';
             this.$refs.bucket2Line3.style.color = '#363636';
             this.$refs.bucket2Line4.style.opacity = '1';
-        }, 6000)
+        }, 4000)
         setTimeout(() => {
             this.$refs.bucket2Line5.style.opacity = '1';
-        }, 8000)
+        }, 5000)
         setTimeout(() => {
             this.$refs.bucket2Line4.style.color = '#363636';
             this.$refs.bucket2Line5.style.color = '#363636';
-        }, 10000)
-        // setTimeout(() => {
-        //     this.$refs.bucket2Line1.style.color = '#363636';
-        //     this.$refs.bucket2Line2.style.color = '#363636';
-        //     this.$refs.bucket2Line3.style.color = '#363636';
-        //     this.$refs.bucket2Line4.style.color = '#363636';
-        //     this.$refs.bucket2Line5.style.color = '#363636';
-
-        //     this.$refs.bucket2Line1.style.opacity = '1';
-        //     this.$refs.bucket2Line2.style.opacity = '1';
-        //     this.$refs.bucket2Line3.style.opacity = '1';
-        //     this.$refs.bucket2Line4.style.opacity = '1';
-        //     this.$refs.bucket2Line5.style.opacity = '1';
-        // }, 11000)
-    },
-    methods: {
-        highlight (el) {
-            // this.$refs.bucket2Line1.style.color = 'white';
-            // this.$refs.bucket2Line1.style.fontSize = '53.5pt';
-            setTimeout(() => {
-                // this.$refs.bucket2Line1.style.fontSize = '53pt';
-                this.$refs.bucket2Line1.style.color = '#363636';
-                this.$refs.bucket2Line2.style.color = 'white';
-                // this.$refs.bucket2Line2.style.fontSize = '53.5pt';
-            }, 2500)
-            setTimeout(() => {
-                this.$refs.bucket2Line3.style.color = 'white';
-                // this.$refs.bucket2Line3.style.fontSize = '53.5pt';
-            }, 4500)
-            setTimeout(() => {
-                this.$refs.bucket2Line2.style.color = '#363636';
-                // this.$refs.bucket2Line2.style.fontSize = '53pt';
-                this.$refs.bucket2Line3.style.color = '#363636';
-                // this.$refs.bucket2Line3.style.fontSize = '53pt';
-                this.$refs.bucket2Line4.style.color = 'white';
-                // this.$refs.bucket2Line4.style.fontSize = '53.5pt';
-            }, 7000)
-            setTimeout(() => {
-                this.$refs.bucket2Line5.style.color = 'white';
-                // this.$refs.bucket2Line5.style.fontSize = '53.5pt';
-            }, 9500)
-            setTimeout(() => {
-                this.$refs.bucket2Line4.style.color = '#363636';
-                // this.$refs.bucket2Line4.style.fontSize = '53pt';
-                this.$refs.bucket2Line5.style.color = '#363636';
-                // this.$refs.bucket2Line5.style.fontSize = '53pt';
-            }, 12000)
-        }
+        }, 6000)
     }
 }
 </script>
@@ -104,7 +57,7 @@ p {
     /* color: #363636; */
     color: white;
     font-family: 'CaslonRH-Superfine', sans-serif;
-    font-size: 53pt;
+    font-size: 54pt;
     line-height: 42pt;
     text-transform: uppercase;
     transition: all 300ms linear;

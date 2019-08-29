@@ -4,6 +4,7 @@
       <h1>RH GUESTHOUSE</h1>
       <h2>DESIGN CONCEPTS</h2>
       <a href="/design1">Design 1 - Film</a>
+      <a href="/design1b">Design 1b - Film</a>
       <a href="/design2">Design 2 - Scroll</a>
     </div>
   </div>

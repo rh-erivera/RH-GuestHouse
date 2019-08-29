@@ -13,10 +13,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preload', href: '/slide1.jpg', as: 'image'},
-      { rel: 'preload', href: '/slide2.jpg', as: 'image'},
-      { rel: 'preload', href: '/slide3.jpg', as: 'image'},
-      { rel: 'preload', href: '/slide4.jpg', as: 'image'}
+      { rel: 'preload', href: '/design1/slide1.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1/slide2.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1/slide3.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1/slide4.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1b/slide1.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1b/slide2.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1b/slide3.jpg', as: 'image'},
+      { rel: 'preload', href: '/design1b/slide4.jpg', as: 'image'}
     ]
   },
   /*

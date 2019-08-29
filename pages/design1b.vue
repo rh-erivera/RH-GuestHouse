@@ -6,21 +6,21 @@
 export default {
     mounted() {
         setTimeout(() => {
-            this.$refs.root.style.backgroundImage = 'url(/design1/slide2.jpg)';
-        }, 750)
+            this.$refs.root.style.backgroundImage = 'url(/design1b/slide2.jpg)';
+        }, 2000)
         setTimeout(() => {
-            this.$refs.root.style.backgroundImage = 'url(/design1/slide3.jpg)';
-        }, 2500)
-        setTimeout(() => {
-            this.$refs.root.style.backgroundImage = 'url(/design1/slide4.jpg)';
-        }, 5500)
+            this.$refs.root.style.backgroundImage = 'url(/design1b/slide3.jpg)';
+        }, 2750)
+        // setTimeout(() => {
+        //     this.$refs.root.style.backgroundImage = 'url(/design1b/slide4.jpg)';
+        // }, 6500)
     }
 }
 </script>
 
 <style>
 .root {
-    background-image: url('/design1/slide1.jpg');
+    background-image: url('/design1b/slide1.jpg');
     background-position: center;
     background-size: cover;
     height: 732px;
