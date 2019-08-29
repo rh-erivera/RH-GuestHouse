@@ -25,22 +25,22 @@ export default {
         setTimeout(() => {
             this.$refs.bucket2Line1.style.color = '#212121';
             this.$refs.bucket2Line2.style.opacity = '1';
-        }, 1500)
+        }, 1000)
         setTimeout(() => {
             this.$refs.bucket2Line3.style.opacity = '1';
-        }, 2500)
+        }, 2000)
         setTimeout(() => {
             this.$refs.bucket2Line2.style.color = '#212121';
             this.$refs.bucket2Line3.style.color = '#212121';
             this.$refs.bucket2Line4.style.opacity = '1';
-        }, 4000)
+        }, 3500)
         setTimeout(() => {
             this.$refs.bucket2Line5.style.opacity = '1';
-        }, 5000)
+        }, 4500)
         setTimeout(() => {
             this.$refs.bucket2Line4.style.color = '#212121';
             this.$refs.bucket2Line5.style.color = '#212121';
-        }, 6000)
+        }, 5500)
     }
 }
 </script>
