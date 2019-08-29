@@ -11,6 +11,9 @@ export default {
         setTimeout(() => {
             this.$refs.root.style.backgroundImage = 'url(/slide3.jpg)';
         }, 4000)
+        setTimeout(() => {
+            this.$refs.root.style.backgroundImage = 'url(/slide4.jpg)';
+        }, 7000)
     }
 }
 </script>

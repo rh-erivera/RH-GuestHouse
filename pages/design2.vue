@@ -78,7 +78,8 @@ p {
     font-size: 53pt;
     line-height: 42pt;
     text-transform: uppercase;
-    transition: all 300ms linear;
+    transition: color 300ms linear, font-size 300ms linear;
+    -webkit-transition: color 300ms linear, font-size 300ms linear;
 }
 .root {
     scroll-snap-type: y mandatory;
