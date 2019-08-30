@@ -22,8 +22,8 @@ export default {
     background-position: center;
     background-size: cover;
     height: 732px;
-    animation: fadeIn 500ms linear;
-    transition: all 500ms linear;
+    animation: fadeIn 1s ease;
+
 }
 .menu {
     position: absolute;
@@ -31,7 +31,7 @@ export default {
     width: 100%;
     text-align: center;
     font-family: 'CaslonRH-Thin';
-    font-size: 7pt;
+    font-size: 8pt;
     letter-spacing: .12em;
     line-height: 16pt;
     color: white;

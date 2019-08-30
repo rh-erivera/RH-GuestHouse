@@ -31,7 +31,7 @@ export default {
     width: 100%;
     text-align: center;
     font-family: 'CaslonRH-Thin';
-    font-size: 7pt;
+    font-size: 8pt;
     letter-spacing: .12em;
     line-height: 16pt;
     color: white;
