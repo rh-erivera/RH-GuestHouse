@@ -4,7 +4,7 @@
             <a href="/design1b-experience">THE EXPERIENCE</a><span>/</span>
             <a href="/design1b-rooms">ROOMS & RESIDENCE</a><span>/</span>
             <a href="/design1b-kitchen">THE KITCHEN</a><span>/</span>
-            <a href="/design1b-house">HOUSE RULES</a><span>/</span>
+            <a class="active" href="/design1b-house">HOUSE RULES</a><span>/</span>
             <a href="/design1b-inquiry">INQUIRY</a>
         </div>
     </div>
@@ -18,7 +18,7 @@ export default {
 
 <style>
 .root {
-    background-image: url('/design1b/slide1.jpg');
+    background-image: url('/design1b/house.jpg');
     background-position: center;
     background-size: cover;
     height: 732px;
@@ -38,6 +38,9 @@ export default {
 }
 .menu span {
     padding: 0 10px;
+}
+.active {
+    color: #959595;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
